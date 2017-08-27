@@ -14,4 +14,10 @@ function johnLennonFacts (facts){
   return newJohnArray;
 }
 
-
+function iLoveTheBeatles(numb){
+  var loveArray = [];
+  do {
+    loveArray.push(`I love the Beatles!`);
+    numb++;
+  } while (numb <=15);
+}
